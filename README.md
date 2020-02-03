@@ -28,13 +28,13 @@ https://stark-scrubland-18574.herokuapp.com/
 - Heroku for deployment
 
 ## Code Highlights
- The post api route to create the contact in database where a visitor contacts me through the form.
+ The post api route which also creates the new contact in the database when a visitor contacts me through the form.
 
  ![image](https://user-images.githubusercontent.com/54960706/73698590-69a9dd00-4696-11ea-8979-590e8dc95da7.png)
 
-The above image also has the get route for hompage.
+The above image also has the get route for homepage.
 
-The other interesting thing was the jquery portion to get the content from the input form, add validation and then make the ajax call to post route.
+The other interesting thing was the jquery portion to get the content from the input form in which I added the validation and then made the ajax call to post route.
 
 ![image](https://user-images.githubusercontent.com/54960706/73698938-577c6e80-4697-11ea-8ac9-36b1d43b1e19.png)
 
