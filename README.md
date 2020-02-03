@@ -1,4 +1,4 @@
-# portfolio-2.0
+# Portfolio-2.0
 
 This is my updated portfolio website with new projects added. In this edition along with new styling there is a contact form and a database that stores information of whoever tries to contact me through that form.
 
