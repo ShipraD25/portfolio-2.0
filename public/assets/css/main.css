@@ -160,6 +160,10 @@ textarea {
     appearance: none;
 }
 
+.circular--square {
+    border-radius: 50%;
+}
+
 
 /* Basic */
 

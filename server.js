@@ -1,8 +1,5 @@
 var express = require("express");
 
-
-//var exphbs = require("express-handlebars");
-
 var app = express();
 var PORT = process.env.PORT || 8080;
 
@@ -13,11 +10,9 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-//var apiRoutes = require("./controllers/api_routes");
-//app.use(apiRoutes);
+var routes = require("./controllers/routes");
+app.use(routes);
 
-//var htmlRoutes = require("./controllers/html_routes.js");
-//app.use(htmlRoutes);
 
 
 db.sequelize.sync().then(function() {
