@@ -6,6 +6,7 @@ This is my updated portfolio website with new projects added. In this edition al
 https://stark-scrubland-18574.herokuapp.com/
 
 ## Demo 
+![app-demo](https://media.giphy.com/media/QTBtxbZ6jJQjE9OqSM/giphy.gif)
 
 ## Built With
 ***Frontend***
