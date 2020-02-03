@@ -20,7 +20,7 @@ router.post("/", function(req, res) {
 });
 
 router.get("/", function(req, res) {
-    //res.sendFile(index.html", { 'root': "./views" });
+
     res.sendFile(path.join(__dirname, "../public/index.html"))
 
 });

@@ -18,11 +18,8 @@ $(document).ready(function() {
                 }
                 //ajax
             $.post("/", newMsg).then(function() {
-                    window.location.href = "mailto:drshipradyundi@gmail.com?" + "subject=" + name + "&body=" + message;
-                })
-                // window.location.href = "mailto:user@example.com?subject=Subject&body=message%20goes%20here"
-
-
+                window.location.href = "mailto:drshipradyundi@gmail.com?" + "subject=" + name + "&body=" + message;
+            });
         }
     });
 
