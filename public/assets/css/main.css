@@ -181,9 +181,9 @@ textarea {
     appearance: none;
 }
 
-.circular--square {
+ .circular--square {
     border-radius: 50%;
-}
+} 
 
 
 /* Basic */
@@ -3129,10 +3129,10 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 @media screen and (max-width: 736px) {
     #intro {
         padding: 3rem 2rem 1rem 2rem;
-        min-height: 80vh;
+        min-height: 60vh;
     }
     #intro h1 {
-        font-size: 3.25rem;
+        font-size: 3rem;
         line-height: 1.1;
         margin-bottom: 1rem;
     }
@@ -3140,8 +3140,13 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
         font-size: 1rem;
         margin-top: 0rem;
     }
-    #intro .actions {
-        display: none;
+      /* #intro .actions {
+          width: 100px;
+        /* display: none; 
+    }   */
+    .circular--square {
+        height: 100px;
+        margin-left: 45px;
     }
 }
 
