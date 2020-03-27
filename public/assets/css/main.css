@@ -183,6 +183,7 @@ textarea {
 
  .circular--square {
     border-radius: 50%;
+    height: 100px;
 } 
 
 
@@ -2517,9 +2518,9 @@ ul.actions.fit li {
     width: 100%;
 }
 
-ul.actions.fit li>* {
+/* ul.actions.fit li>* {
     width: 100%;
-}
+} */
 
 ul.actions.fit.stacked {
     width: 100%;
@@ -3129,7 +3130,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 @media screen and (max-width: 736px) {
     #intro {
         padding: 3rem 2rem 1rem 2rem;
-        min-height: 60vh;
+        min-height: 40vh;
     }
     #intro h1 {
         font-size: 3rem;
@@ -3145,8 +3146,8 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
         /* display: none; 
     }   */
     .circular--square {
-        height: 100px;
-        margin-left: 90px;
+        height: 80px;
+        margin-left: 40px;
     }
 }
 
