@@ -3147,7 +3147,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
     }   */
     .circular--square {
         height: 80px;
-        margin-left: 40px;
+        margin-left: 100px;
     }
 }
 
